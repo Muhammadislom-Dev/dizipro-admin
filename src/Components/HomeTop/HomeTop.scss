@@ -39,7 +39,7 @@
         align-items: center;
     }
 
-    &__item{
+    &__item, &__items, &__itemes{
         margin: 10px;
     }
 
@@ -74,5 +74,26 @@
             color: #01605A;
         }
 
+    }
+
+    &__link{
+        text-decoration: none;
+    }
+    &__itemes{
+        width: 106px;
+        height: 34px;
+        background-color: #F1F1F1;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    &__links{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-decoration: none;
+        color: #000;
+        position: relative;
+        top: 10%;
     }
 }

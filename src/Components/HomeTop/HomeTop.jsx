@@ -37,20 +37,20 @@ const HomeTop = () => {
                             <button className="hometop-btn">Search</button>
                         </div>
                     </li>
-                    <li className="hometop__item">
+                    <li className="hometop__items">
                         <Link className='hometop__link'>Filters</Link>
                     </li>
-                    <li className="hometop__item">
-                        <Link className='hometop__link'>Only Women</Link>
+                    <li className="hometop__itemes">
+                        <Link className='hometop__links'>Only Women</Link>
                     </li>
-                    <li className="hometop__item">
-                        <Link className='hometop__link'>Only men</Link>
+                    <li className="hometop__itemes">
+                        <Link className='hometop__links'>Only men</Link>
                     </li>
-                    <li className="hometop__item">
-                        <Link className='hometop__link'>A-Z</Link>
+                    <li className="hometop__itemes">
+                        <Link className='hometop__links'>A-Z</Link>
                     </li>
-                    <li className="hometop__item">
-                        <Link className='hometop__link'>Oldest</Link>
+                    <li className="hometop__itemes">
+                        <Link className='hometop__links'>Oldest</Link>
                     </li>
                 </ul>
             </div>
