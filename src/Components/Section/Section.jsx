@@ -12,38 +12,38 @@ const Section = () =>{
     return(
         <div className="section">
             <div className="section-page">
-                <ul className="section-list">
-                    <li className="section-item">
-                        <p className="section-name">Name or ID</p>
-                    </li>
-                    <li className="section-item">
-                        <p className="section-name">Email</p>
-                    </li>
-                    <li className="section-item">
-                        <p className="section-name">Username</p>
-                    </li>
-                    <li className="section-item">
-                        <p className="section-name">Company</p>
-                    </li>
-                    <li className="section-item">
-                        <p className="section-name">Country</p>
-                    </li>
-                </ul>
+                <table className="section-list">
+                    <tr className="section-item">
+                        <td className="section-name">Name or ID</td>
+                    </tr>
+                    <tr className="section-item">
+                        <td className="section-name">Email</td>
+                    </tr>
+                    <tr className="section-item">
+                        <td className="section-name">Username</td>
+                    </tr>
+                    <tr className="section-item">
+                        <td className="section-name">Company</td>
+                    </tr>
+                    <tr className="section-item">
+                        <td className="section-name">Country</td>
+                    </tr>
+                </table>
 
 
-                <ul className='section__list'>
+                <table className='section__list'>
                     {
                         data && data.map(e =>(
-                            <li className='section-title'>
-                                <p className='section-names'>{e.name}</p>
-                                <p className="section-username">{e.username}</p>
-                                <p className='section-suite'>{e.address.suite}</p>
-                                <p className="section-city">{e.address.city}</p>
-                                <p className="section-company">{e.company.name}</p>
-                            </li>
+                            <tr className='section-title'>
+                                <td className='section-names'>{e.name}</td>
+                                <td className="section-username">{e.username}</td>
+                                <td className='section-suite'>{e.address.suite}</td>
+                                <td className="section-city">{e.address.city}</td>
+                                <td className="section-company">{e.company.name}</td>
+                            </tr>
                         ))
                     }
-                </ul>
+                </table>
             </div>
         </div>
     )

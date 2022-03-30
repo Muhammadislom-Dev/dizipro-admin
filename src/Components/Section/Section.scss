@@ -1,29 +1,37 @@
 .section{
 
-    &-list{
-        display: flex;
-        justify-content: space-between;
-        width: 1260px;
-        margin-left: 25px;
-        list-style: none;
-    }
+   &-list{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 35px;
+   }
 
-    &-name{
-        opacity: 0.4;
-        font-size: 16px;
-        line-height: 21px;
-    }
+   &-names{
+       font-weight: 500;
+       font-size: 18px;
+       line-height: 22px;
+   }
 
-    &-title{
-        display: flex;
-        width: 1260px;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 20px;
-    }
+   &__list{
+       margin-left: 35px;
+   }
 
-    &-username{
-        width: 19%;
-        text-align: center;
-    }
+   &-company{
+       position: absolute;
+       left: 81.7%;
+   }
+
+   &-city{
+       position: absolute;
+       left: 62.9%;
+   }
+   &-suite{
+       position: absolute;
+       left: 44%;
+   }
+   &-username{
+       position: absolute;
+       left: 27%;
+   }
 }
