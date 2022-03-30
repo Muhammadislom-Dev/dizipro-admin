@@ -6,7 +6,7 @@ const Section = () =>{
     useEffect(()=>{
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setData(data))
     })
 
     return(
@@ -28,6 +28,21 @@ const Section = () =>{
                     <li className="section-item">
                         <p className="section-name">Country</p>
                     </li>
+                </ul>
+
+
+                <ul className='section__list'>
+                    {
+                        data && data.map(e =>(
+                            <li className='section-title'>
+                                <p className='section-names'>{e.name}</p>
+                                <p className="section-username">{e.username}</p>
+                                <p className='section-suite'>{e.address.suite}</p>
+                                <p className="section-city">{e.address.city}</p>
+                                <p className="section-company">{e.company.name}</p>
+                            </li>
+                        ))
+                    }
                 </ul>
             </div>
         </div>
