@@ -1,0 +1,29 @@
+.hometop{
+
+    &-page{
+        position: absolute;
+        top: 15%;
+        margin-left: 15px;
+    }
+
+    &-list{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        width: 350px;
+        justify-content: space-between;
+    }
+    &-link{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #808080;
+        transition: 0.5s;
+
+        &:hover{
+            color:#01605A;
+            border-bottom: 3px solid #01605A;
+        }
+    }
+}
