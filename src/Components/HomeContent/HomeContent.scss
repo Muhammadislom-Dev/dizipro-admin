@@ -11,7 +11,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 350px;
+        width: 360px;
     }
 
     &-text{
@@ -20,16 +20,18 @@
         line-height: 18px;
         color: #333;
         padding: 20px;
+        display: flex;
+        align-items: center;
 
         &::before{
             content: "";
             display: inline-block;
             background-image: url("../../assets/img/noti.png");
             background-repeat: no-repeat;
-            background-size: 20px;
+            background-size: 17px;
             width: 16px;
             height: 19px;
-            background-position: top 100% left -1px;
+            background-position: top 2.2px left -1px;
         }
 
         &::after{
@@ -37,10 +39,10 @@
             display: inline-block;
             background-image: url("../../assets/img/three.png");
             background-repeat: no-repeat;
-            background-size: 25px;
-            width: 20px;
+            background-size: 17px;
+            width: 19px;
             height: 18px;
-            background-position: top 100% left 15%;
+            background-position: top 2px left 15%;
         }
     }
 
@@ -50,16 +52,18 @@
         line-height: 21px;
         color: #333;
         letter-spacing: -0.02rem;
+        display: flex;
+        align-items: center;
 
         &::before{
         content: "";
         display: inline-block;
         background-image: url("../../assets/img/person.png");
         background-repeat: no-repeat;
-        background-size: 20px;
-        width: 16px;
-        height: 19px;
-        background-position: top 100% left -1px;
+        background-size: 24px;
+        width: 20px;
+        height: 24px;
+        background-position: top 100% left -1.5px;
         }
     }
 }

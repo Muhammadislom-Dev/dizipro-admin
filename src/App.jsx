@@ -1,6 +1,6 @@
 import './App.scss';
 import Sidebar from './Components/Sidebar/Sidebar'
-import Homes from './Pages/Home/Homes';
+import Homes from './Page/Home/Homes';
 
 import {Switch, Route} from 'react-router-dom'
 
