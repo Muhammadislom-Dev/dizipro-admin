@@ -16,7 +16,7 @@
     &-link{
         text-decoration: none;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 21px;
         color: #808080;
         transition: 0.5s;
@@ -25,5 +25,54 @@
             color:#01605A;
             border-bottom: 3px solid #01605A;
         }
+    }
+
+    &-bloc{
+        margin-left: 10px;
+        position: absolute;
+        top: 24%;
+    }
+
+    &__list{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+
+    &__item{
+        margin: 10px;
+    }
+
+    &-input{
+        width: 250px;
+        height: 35px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+
+        &::placeholder{
+            padding-left: 10px;
+        }
+    }
+
+    &-btn{
+        width: 120px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        background-color: #01605A;
+        color: #fff;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        transition: 0.8s;
+
+        &:hover{
+            border: 2px solid #01605A;
+            background-color: #fff;
+            color: #01605A;
+        }
+
     }
 }

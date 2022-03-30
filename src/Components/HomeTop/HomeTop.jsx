@@ -28,6 +28,32 @@ const HomeTop = () => {
                     </li>
                 </ul>
             </div>
+
+            <div className="hometop-bloc">
+                <ul className="hometop__list">
+                    <li className="hometop__item">
+                        <div className="hometop-box">
+                            <input type="text" placeholder='Name or ID' className="hometop-input" />
+                            <button className="hometop-btn">Search</button>
+                        </div>
+                    </li>
+                    <li className="hometop__item">
+                        <Link className='hometop__link'>Filters</Link>
+                    </li>
+                    <li className="hometop__item">
+                        <Link className='hometop__link'>Only Women</Link>
+                    </li>
+                    <li className="hometop__item">
+                        <Link className='hometop__link'>Only men</Link>
+                    </li>
+                    <li className="hometop__item">
+                        <Link className='hometop__link'>A-Z</Link>
+                    </li>
+                    <li className="hometop__item">
+                        <Link className='hometop__link'>Oldest</Link>
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }
