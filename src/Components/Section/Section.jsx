@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import './Section.scss'
 
+import Avatar from '../../assets/img/avatar.png'
+
 const Section = () =>{
     const [data, setData] = useState([])
     useEffect(()=>{
@@ -35,7 +37,9 @@ const Section = () =>{
                     {
                         data && data.map(e =>(
                             <tr className='section-title'>
-                                <td className='section-names'>{e.name}</td>
+                                <td className='section-names'>
+                                    <img src={Avatar} alt="" />
+                                    {e.name}</td>
                                 <td className="section-username">{e.username}</td>
                                 <td className='section-suite'>{e.address.suite}</td>
                                 <td className="section-city">{e.address.city}</td>

@@ -4,34 +4,46 @@
     display: flex;
     justify-content: space-between;
     width: 1200px;
-    margin-left: 35px;
+    margin-left: 40px; 
    }
 
    &-names{
        font-weight: 500;
        font-size: 18px;
        line-height: 22px;
+       display: flex;
+       align-items: center;
    }
 
    &__list{
-       margin-left: 35px;
+       margin-left: 40px;
    }
 
    &-company{
        position: absolute;
-       left: 81.7%;
+       left: 82.4%;
    }
 
    &-city{
        position: absolute;
-       left: 62.9%;
+       left: 63.7%;
    }
    &-suite{
        position: absolute;
-       left: 44%;
+       left: 44.6%;
    }
    &-username{
        position: absolute;
-       left: 27%;
+       left: 27.9%;
+       height: 35px;
+   }
+
+
+   &__list{
+       margin-top: 15px;
+   }
+
+   &-title{
+       height: 47px;
    }
 }
