@@ -1,0 +1,48 @@
+.sidebar{
+    margin-top: 25px;
+
+    &-img{
+        margin-left: 19px;
+    }
+
+    &-home{
+        height: 600px;    
+    }
+
+    &__list{
+       position: relative;
+       top: 25%;
+       padding: 15px;
+       list-style: none;
+    }
+    &__item{
+        padding: 10px;
+    }
+
+    &__link-active{
+        // background-color: dodgerblue; 
+        // display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+        span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 8px;
+            margin-left: -8px;
+            background-color: #fff;
+        }
+ 
+        svg{
+         path{
+           fill:  #01605A;
+           ;
+         }
+       }
+     }
+
+}
