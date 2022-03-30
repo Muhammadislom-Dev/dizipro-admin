@@ -12,6 +12,8 @@ const HomeContent = () =>{
                     <h3 className='homecontent-names'>Jaloliddin Esonboyev</h3>
                 </div>
             </div>
+
+            
         </div>
     )
 }
