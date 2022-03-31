@@ -21,6 +21,70 @@
         display: flex;
         width: 1250px;
         justify-content: space-between;
-        margin: 0 25px;
+        margin: 0 30px;
+    }
+
+    &-suite{
+        position: absolute;
+        left: 28%;
+        margin-top: -30px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #171717;
+    }
+
+    &-number{
+        position: absolute;
+        left: 88.5%;
+        margin-top: -30px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #171717;
+    }
+
+    &-company{
+        position: absolute;
+        left: 70%;
+        margin-top: -30px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #171717;
+    }
+    &-city{
+        position: absolute;
+        left: 49%;
+        margin-top: -30px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #171717;
+    }
+    &-title{
+        height: 48px;
+    }
+    &__list{
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    &-full{
+        display: flex;
+        align-items: center;    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #171717;
+
+        &::before{
+            content: "";
+            display: inline-block;
+            background-image: url('../../assets/img/avatar.png');
+            background-repeat: no-repeat;
+            width: 35px;
+            height: 35px;
+            background-size: 30px;
+            background-position: top 50% left 0%;
+            align-items: center;
+        }
     }
 }

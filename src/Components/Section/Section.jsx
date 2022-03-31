@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Section.scss'
 
-import Avatar from '../../assets/img/avatar.png'
 
 const Section = () =>{
     const [data, setData] = useState([])
