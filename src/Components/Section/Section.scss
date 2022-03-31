@@ -11,8 +11,23 @@
        font-weight: 500;
        font-size: 18px;
        line-height: 22px;
+       width: 240px;
+    //    padding-top: 15px;
        display: flex;
        align-items: center;
+
+       &::before{
+           content: "";
+           display: inline-block;
+           background-image: url('../../assets/img/avatar.png');
+           background-repeat: no-repeat;
+           width: 35px;
+           height: 35px;
+           background-size: 30px;
+           background-position: top 50% left 0%;
+        //    display: flex;
+           align-items: center;
+       }
    }
 
    &__list{
@@ -22,20 +37,24 @@
    &-company{
        position: absolute;
        left: 82.4%;
+       margin-top: -35px;
    }
 
    &-city{
        position: absolute;
        left: 63.7%;
+       margin-top: -35px;
    }
    &-suite{
        position: absolute;
        left: 44.6%;
+       margin-top: -35px;
    }
    &-username{
        position: absolute;
        left: 27.9%;
        height: 35px;
+       margin-top: -35px;
    }
 
 

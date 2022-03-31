@@ -38,8 +38,8 @@ const Section = () =>{
                         data && data.map(e =>(
                             <tr className='section-title'>
                                 <td className='section-names'>
-                                    <img src={Avatar} alt="" />
-                                    {e.name}</td>
+                                    {e.name}
+                                </td>
                                 <td className="section-username">{e.username}</td>
                                 <td className='section-suite'>{e.address.suite}</td>
                                 <td className="section-city">{e.address.city}</td>
