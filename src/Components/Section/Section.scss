@@ -1,4 +1,7 @@
 .section{
+    background-color: #fff;
+    border-radius: 12px 12px 0px 0px;
+    margin: 0 20px;
 
    &-list{
     display: flex;
@@ -36,25 +39,37 @@
 
    &-company{
        position: absolute;
-       left: 82.4%;
-       margin-top: -35px;
+       left: 83.8%;
+       margin-top: -30px;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 17px;
    }
 
    &-city{
        position: absolute;
-       left: 63.7%;
-       margin-top: -35px;
+       left: 65%;
+       margin-top: -30px;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 17px;
    }
    &-suite{
        position: absolute;
-       left: 44.6%;
-       margin-top: -35px;
+       left: 46%;
+       margin-top: -30px;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 17px;
    }
    &-username{
        position: absolute;
-       left: 27.9%;
+       left: 29.4%;
        height: 35px;
-       margin-top: -35px;
+       margin-top: -30px;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 17px;
    }
 
 

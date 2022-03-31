@@ -81,6 +81,12 @@
         background-color: #F1F1F1;
         border-radius: 8px;
         text-align: center;
+        transition: 0.9s;
+
+        &:hover{
+            background-color: rgb(29, 21, 21);
+            // color: #fff;
+        }
     }
 
     &__links{
@@ -91,5 +97,11 @@
         color: #000;
         position: relative;
         top: 10%;
+        transition: 0.9s;
+
+
+        &:hover{
+            color:#fff;
+        }
     }
 }

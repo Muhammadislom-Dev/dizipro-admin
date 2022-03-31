@@ -1,5 +1,5 @@
 .sidebar{
-    background-color: #fff;
+    // background-color: #fff;
 
     &-img{
         margin-left: 19px;
@@ -7,7 +7,8 @@
     }
 
     &-home{
-        height: 600px;    
+        height: 600px;   
+        background-color: #fff; 
     }
 
     &__list{
