@@ -1,11 +1,10 @@
 import './Weight.scss'
-
-import HomeContents from '../../Components/HomeContents/HomeContents'
+import PageContent from '../../Components/PageContent/PageContent'
 
 const Weight = () =>{
     return(
         <div className="weight">
-            <HomeContents />
+            <PageContent />
         </div>
     )
 }
