@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import './Sublime.scss'
 
 import Card from '../../assets/img/card.png'
-
 const Sublime = () =>{
     const [data, setData] = useState([])
     useEffect(()=>{

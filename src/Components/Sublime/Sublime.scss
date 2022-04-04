@@ -8,6 +8,7 @@
         line-height: 29px;
         color: #292929;
         padding: 0 25px;
+        padding-top: 15px;
     }
 
     &-names{
@@ -60,7 +61,7 @@
         color: #171717;
     }
     &-title{
-        height: 48px;
+        height: 49px;
     }
     &__list{
         margin-left: 25px;
@@ -78,7 +79,7 @@
         &::before{
             content: "";
             display: inline-block;
-            background-image: url('../../assets/img/avatar.png');
+            background-image: url('../../assets/img/avatar2.png');
             background-repeat: no-repeat;
             width: 35px;
             height: 35px;
