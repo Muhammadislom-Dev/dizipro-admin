@@ -1,6 +1,31 @@
 .aside{
     padding: 0 35px;
 
+    &-page{
+        display: flex;
+        width: 1000px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__box{
+        display: flex;
+        width: 390px;
+        justify-content: space-between;
+
+    }
+    &-list{
+        padding-left: 20px;
+    }
+
+    &__texts{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+    }
+    
+
     &__back{
         font-weight: 400;
         font-size: 16px;
