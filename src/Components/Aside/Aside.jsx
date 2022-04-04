@@ -29,13 +29,13 @@ const Aside = () =>{
                 </p>
                 <ul className="aside__lists">
                     <li className="aside__item">
-                        <img src={Table} alt="" />
+                        <img className='aside__img' src={Table} alt="" />
                     </li>
                     <li className="aside__item">
-                        <img src={Chair} alt="" />
+                        <img className='aside__img' src={Chair} alt="" />
                     </li>
                     <li className="aside__item">
-                        <img src={City} alt="" />
+                        <img className='aside__img' src={City} alt="" />
                     </li>
                 </ul>
             </div>

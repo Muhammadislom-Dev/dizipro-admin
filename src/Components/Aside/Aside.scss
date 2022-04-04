@@ -60,4 +60,23 @@
         color: #000;
     }
 
+    &__lists{
+        list-style: none;
+        display: flex;
+        margin-left: -45px;
+        padding-top: 15px;
+    }
+
+    &__item{
+        margin: 5px;
+    }
+
+    &__img{
+        transition: 0.3s;
+
+        &:hover{
+            transform: scale(1.07);
+        }
+    }
+
 }
