@@ -42,58 +42,71 @@ const Aside = () =>{
                     </ul>
                 </div>
 
-                <div className="aside__box">
-                    <div className="aside__left">
-                        <p className="aside__back">
-                            3D skills
-                        </p>
-                        <ul className="aside-list">
-                            <li className='aside-item'>
-                                <p className="aside__texts">
-                                3D modelling
-                                </p>
-                            </li>
-                            <li className='aside-item'>
-                                <p className="aside__texts">
-                                    3D Print modelling
-                                </p>
-                            </li>
-                            <li className='aside-item'>
-                                <p className="aside__texts">
-                                    3D scanning
-                                </p>
-                            </li>
-                            <li className='aside-item'>
-                                <p className="aside__texts">
-                                    Animating
-                                </p>
-                            </li>
-                        </ul>  
+                 <div className="aside-box">
+                    <div className="aside__box">
+                        <div className="aside__left">
+                            <p className="aside__back">
+                                3D skills
+                            </p>
+                            <ul className="aside-list">
+                                <li className='aside-item'>
+                                    <p className="aside__texts">
+                                    3D modelling
+                                    </p>
+                                </li>
+                                <li className='aside-item'>
+                                    <p className="aside__texts">
+                                        3D Print modelling
+                                    </p>
+                                </li>
+                                <li className='aside-item'>
+                                    <p className="aside__texts">
+                                        3D scanning
+                                    </p>
+                                </li>
+                                <li className='aside-item'>
+                                    <p className="aside__texts">
+                                        Animating
+                                    </p>
+                                </li>
+                            </ul>  
+                        </div>
+                        <div className="aside__left">
+                            <p className="aside__back">
+                            3D software
+                            </p>
+                            <ul className="aside-list">
+                                <li className='aside-item'>
+                                    <p className="aside__texts">
+                                        Autodesk 3D max
+                                    </p>
+                                </li>
+                                <li className='aside-item'>
+                                    <p className="aside__texts">
+                                        Lumion
+                                    </p>
+                                </li>
+                                <li className='aside-item'>
+                                    <p className="aside__texts">
+                                        ZBrush
+                                    </p>
+                                </li>
+                            
+                            </ul>  
+                        </div>
                     </div>
-                    <div className="aside__left">
-                        <p className="aside__back">
-                        3D software
-                        </p>
-                        <ul className="aside-list">
-                            <li className='aside-item'>
-                                <p className="aside__texts">
-                                    Autodesk 3D max
-                                </p>
-                            </li>
-                            <li className='aside-item'>
-                                <p className="aside__texts">
-                                    Lumion
-                                </p>
-                            </li>
-                            <li className='aside-item'>
-                                <p className="aside__texts">
-                                    ZBrush
-                                </p>
-                            </li>
-                        
-                        </ul>  
+
+                    <div className="aside__right">
+                        <div className="aside__title">
+                            <p className='aside__price'>Deadline</p>
+                            <h2 className='aside__number'>12.02.2021</h2>
+                        </div>
+                        <div className="aside__title">
+                            <p  className='aside__price'>Price</p>
+                            <h2 className='aside__number'>$500</h2>
+                        </div>
                     </div>
-                </div>
+                 </div>
              </div>
         </div>
     )
