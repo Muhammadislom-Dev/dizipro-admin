@@ -4,6 +4,7 @@ import './Aside.scss'
 import Chair from '../../assets/img/chair.png';
 import Table from '../../assets/img/table.png';
 import City from '../../assets/img/city.png';
+import Document from '../../assets/img/document.png';
 
 const Aside = () =>{
     return(
@@ -41,10 +42,22 @@ const Aside = () =>{
                         </li>
                     </ul>
 
+                         <p className="aside__back">
+                            Files
+                        </p>
                     <div className="aside__rights">
-                    <p className="aside__back">
-                        Files
-                    </p>
+                      <div className="aside__document">
+                        <img className='aside__pictures' src={Document} alt="" />
+                        <h3 className='aside__rar'>3D car model.rar <br /> <span>2.3 MB</span> </h3>
+                      </div>
+                      <div className="aside__document">
+                        <img className='aside__pictures' src={Document} alt="" />
+                        <h3 className='aside__rar'>18-05-2021.zip <br /> <span>0.3 MB</span> </h3>
+                      </div>
+                      <div className="aside__document">
+                        <img className='aside__pictures' src={Document} alt="" />
+                        <h3 className='aside__rar'>djsnc.obj <br /> <span>22 MB</span> </h3>
+                      </div>
                     </div>
                 </div>
 

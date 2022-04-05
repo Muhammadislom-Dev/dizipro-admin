@@ -8,6 +8,10 @@
         align-items: center;
     }
 
+    &__page{
+        width: 600px;
+    }
+
     &__box{
         display: flex;
         width: 390px;
@@ -158,6 +162,45 @@
             border: 1px solid #008DDD;
             transform: scale(0.90);
         }
+    }
+
+    &__document{
+        display: flex;
+        align-items: center;
+        width: 230px;
+        transition: 0.6s;
+
+        &:hover{
+            transform: scale(0.90);
+        }
+    }
+
+    &__rar{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        // height: 30px;
+        margin:8px;
+    }
+    span{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        opacity: 0.3;
+        color: #000;
+    }
+
+    &__rights{
+        display: flex;
+        justify-content: space-between;
+        width: 480px;
+        flex-wrap: wrap;
+        
+    }
+
+    &__pictures{
+        height: 40px;
     }
     
 
