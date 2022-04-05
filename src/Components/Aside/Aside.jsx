@@ -40,6 +40,12 @@ const Aside = () =>{
                             <img className='aside__img' src={City} alt="" />
                         </li>
                     </ul>
+
+                    <div className="aside__rights">
+                    <p className="aside__back">
+                        Files
+                    </p>
+                    </div>
                 </div>
 
                  <div className="aside-box">
