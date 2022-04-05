@@ -106,6 +106,10 @@ const Aside = () =>{
                             <h2 className='aside__number'>$500</h2>
                         </div>
                     </div>
+                    <div className="aside__lefts">
+                        <a href="#" className="aside__link">Cancel the order</a>
+                        <button className="aside__button">Contact with moderator</button>
+                    </div>
                  </div>
              </div>
         </div>
